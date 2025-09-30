@@ -1,0 +1,1 @@
+(New-Object -ComObject Shell.Application).NameSpace('C:\users\to\Downloads\test').CopyHere((New-Object -ComObject Shell.Application).NameSpace('C:\user\to\Downloads\test.zip').Items(), 16)
